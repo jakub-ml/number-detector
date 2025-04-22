@@ -1,28 +1,28 @@
 # Number Detector
 
-## Sposób działania:
-1. W termunalu przechodzimy do folderu w którym zapisaliśmy funkcję
-![image](https://user-images.githubusercontent.com/106450951/205079180-20016cf4-4740-4f17-b034-c28fb81efe6a.png)
+## How it works:
+1. Open the terminal and navigate to the folder where the number_detector.py file is saved.
+![image](![image](https://github.com/user-attachments/assets/758bf823-1f3a-44cd-8eab-e68993b78d33))
 
-2. Włączamy program komendą 'python number_detector.py'
+2. Run the program with the command:
+   'python number_detector.py'
 
-4. Widzmy następujące menu
-![image](https://user-images.githubusercontent.com/106450951/205080269-5fb51240-99d3-4698-8ec2-b577c23ba476.png)
+3. You'll see the following menu:
+![image](![image](https://github.com/user-attachments/assets/62b1031b-30e1-400c-bc7f-f97ef1dd9490))
 
+4. The option "Explanation of how the program works" briefly describes what the program does.
+![image](![image](https://github.com/user-attachments/assets/92d6f7a5-c84e-48a9-9e8d-46dc4c13c341))
 
-5. Komenda 'Wyświetlanie działania programu', w krótki sposób opisuje na czym polega program
-![image](https://user-images.githubusercontent.com/106450951/205080518-475c7150-1bf8-4c63-b372-d8b56277d2e9.png)
+6. The "Load image" option lets you choose a specific 28x28 image file from the menu_data folder.
+You can also add your own images, as long as they match the resolution of the sample data.
+![image](![image](https://github.com/user-attachments/assets/7df2e9bb-5235-4cd0-a2c4-17db11966adc))
 
-6. Komenda 'Wczytaj obraz', daje możliwość wczytania konkretnego pliku z obrazem 28x28 z foldera.
-Do foldera można dodawać własne obrazy *o ile mają taką samą rozdzielczość co przykładowe dane*
-![image](https://user-images.githubusercontent.com/106450951/205080867-94364f45-f987-41ff-9659-9980f9b10528.png)
+7. The "Start" option allows you to recognize the digit in the selected image.
+It returns the predicted number and the model's confidence level.
+![image](![image](https://github.com/user-attachments/assets/f5e428c5-979d-4b5d-bc09-0026bd9f4f3a))
 
-7. Komenda 'Start' o ile wcześniej wczytaliśmy jakiś plik, możemy rozpoznać jaki numer widnieje na obrazie.
-Zwracana jest przewidziana liczba oraz dokładnośc przewidywania.
-![image](https://user-images.githubusercontent.com/106450951/205082323-24b7383e-5ed4-416c-9279-669e336927a6.png)
+8. The "Display selected image" option opens a window with the currently loaded image.
+![image](![image](https://github.com/user-attachments/assets/41d562fa-f647-4fed-a7d1-886d0ea1a3a8))
 
-8. Komenda 'Wyświetl wybrany obraz' genereuje okno z naszym obrazem.
-![image](https://user-images.githubusercontent.com/106450951/205082619-dc39a00c-5386-4e14-8505-793ab4a94ab9.png)
-
-9. Komenda 'Wyjdź' kończy działanie naszej funkcji
+9. The "Exit" option closes the program.
 
