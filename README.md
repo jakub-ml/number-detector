@@ -1,6 +1,16 @@
 # Number Detector
+
+## Training process:
+Architekture:
+![image](https://github.com/user-attachments/assets/94acf2b1-f8be-472e-a39f-238353a48325)
+
+Accuracy:
 ![](tmp50wlmavl.gif)
 
+Loss:
+![](tmpakthgjb3.gif)
+
+Plots generated with open_atmos_jupyter_utils
 ## How it works:
 1. Open the terminal and navigate to the folder where the number_detector.py file is saved.
 ![image](https://github.com/user-attachments/assets/758bf823-1f3a-44cd-8eab-e68993b78d33)
