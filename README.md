@@ -1,4 +1,5 @@
 # Number Detector
+![](tmp50wlmavl.gif)
 
 ## How it works:
 1. Open the terminal and navigate to the folder where the number_detector.py file is saved.
