@@ -72,7 +72,7 @@ Plots generated with: **open_atmos_jupyter_utils**
   <img src="https://github.com/user-attachments/assets/92d6f7a5-c84e-48a9-9e8d-46dc4c13c341" alt="image">
 </p>
 
-6. The "Load image" option lets you choose a specific 28x28 image file from the menu_data folder.
+5. The "Load image" option lets you choose a specific 28x28 image file from the menu_data folder.
 You can also add your own images, as long as they match the resolution of the sample data.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7df2e9bb-5235-4cd0-a2c4-17db11966adc" alt="image">
@@ -80,16 +80,16 @@ You can also add your own images, as long as they match the resolution of the sa
 
 
 
-8. The "Start" option allows you to recognize the digit in the selected image.
+6. The "Start" option allows you to recognize the digit in the selected image.
 It returns the predicted number and the model's confidence level.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f5e428c5-979d-4b5d-bc09-0026bd9f4f3a" alt="image">
 </p>
 
-9. The "Display selected image" option opens a window with the currently loaded image.
+7. The "Display selected image" option opens a window with the currently loaded image.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/41d562fa-f647-4fed-a7d1-886d0ea1a3a8" alt="image">
 </p>
 
-10. The "Exit" option closes the program.
+8. The "Exit" option closes the program.
 
