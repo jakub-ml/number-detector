@@ -1,16 +1,40 @@
 # Number Detector
 
+## Project Summary
+
+The goal of this project was to develop a simple yet effective digit recognition system based on image data. By using a trained neural network model, the system is able to classify 28x28 grayscale images of handwritten digits and predict the number they represent.
+
+This project demonstrates how image data can be preprocessed, visualized, and passed through a machine learning model to achieve accurate classification results. It serves both as a practical implementation of digit recognition and as an educational tool for understanding image-based AI models.
+
+The project can be run either using Docker or by installing the required dependencies listed in the requirements.txt file.
+## Data:
+
+The image shows a portion of a dataset where each row represents a flattened 28x28 grayscale image, with pixel values ranging from pixel1 to pixel784. All pixel values in the visible portion are zeros, indicating that these particular images are likely completely black or empty.
+
+
+![image](https://github.com/user-attachments/assets/23ae7d54-964e-45b2-ad4a-854f5f00aece)
+
+Each image can be represented as a specific data index and then displayed.
+![image](https://github.com/user-attachments/assets/0a59580f-8bf8-41d3-8cb4-9095aa44a74d)
+
+
 ## Training process:
-Architekture:
+
+*Model Architecture*:
+
+![image](https://github.com/user-attachments/assets/68f81d89-8b77-4722-99e8-6f5bb3d07604)
 ![image](https://github.com/user-attachments/assets/94acf2b1-f8be-472e-a39f-238353a48325)
 
-Accuracy:
+*Accuracy*:
+
 ![](tmp50wlmavl.gif)
 
-Loss:
+*Loss*:
+
 ![](tmpakthgjb3.gif)
 
-Plots generated with open_atmos_jupyter_utils
+Plots generated with: **open_atmos_jupyter_utils**
+
 ## How it works:
 1. Open the terminal and navigate to the folder where the number_detector.py file is saved.
 ![image](https://github.com/user-attachments/assets/758bf823-1f3a-44cd-8eab-e68993b78d33)
